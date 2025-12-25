@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name — Cloud & Software Engineer</title>
+
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --accent: #2563eb;
+      --border: #e5e7eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 64px 24px;
+    }
+
+    header {
+      margin-bottom: 64px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      color: var(--muted);
+      font-size: 1.1rem;
+      max-width: 600px;
+    }
+
+    section {
+      margin-bottom: 56px;
+    }
+
+    section h2 {
+      font-size: 1.5rem;
+      margin-bottom: 16px;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 8px;
+    }
+
+    .skills,
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 20px;
+      background: #fafafa;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      margin-bottom: 8px;
+      font-size: 1.1rem;
+    }
+
+    .card p {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding-top: 24px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .links a {
+      margin-right: 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+      <header>
+  <img src="profile.jpg" alt="Jarvish J" style="
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 16px;
+  ">
+
+      <h1>Jarvish J</h1>
+      <p>
+        Aspiring Cloud & Software Engineer with hands-on experience in AWS,
+        infrastructure fundamentals, and real-world cloud deployments.
+      </p>
+      <div class="links">
+  <a href="https://www.linkedin.com/in/jarvish-j-311287353/" target="_blank">LinkedIn</a>
+  <a href="mailto:jarvish516@gmail.com">Email</a>
+</div>
+    </header>
+
+    <section>
+      <h2>About</h2>
+      <p>
+        I focus on building simple, reliable systems and learning how real-world
+        cloud infrastructure works. I enjoy hands-on experimentation, debugging,
+        and understanding trade-offs in system design.
+      </p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="card">
+          <h3>Cloud</h3>
+          <p>AWS EC2, S3, Security Groups, IAM (basics)</p>
+        </div>
+        <div class="card">
+          <h3>Systems</h3>
+          <p>Linux fundamentals, web servers (Apache), networking basics</p>
+        </div>
+        <div class="card">
+          <h3>Web</h3>
+          <p>HTML, CSS, static site architecture</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="card">
+          <h3>Cloud-Based Study Material Portal</h3>
+          <p>
+            Hosted a static website on Amazon EC2 using Apache, integrated
+            Amazon S3 for file storage, and configured security groups for
+            public access.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Static Portfolio Website (S3)</h3>
+          <p>
+            Designed and deployed a static portfolio using Amazon S3 static
+            website hosting, following cloud best practices.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>
+        Open to internships, learning opportunities, and technical discussions.
+      </p>
+    </section>
+
+    <footer>
+      © 2025 Your Name · Hosted on Amazon S3
+    </footer>
+
+  </div>
+</body>
+</html>
